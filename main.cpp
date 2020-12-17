@@ -1,8 +1,8 @@
 #include <iostream>
 
 struct node {
-	int data;
-	node* next;
+	int data = 0;
+	node* next = nullptr;
 };
 
 struct list {
